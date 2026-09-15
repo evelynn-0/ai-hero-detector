@@ -2,7 +2,7 @@
 
 **把“时代真的来了”拆成可以追问、可以验证的具体主张。**
 
-v0.1 · MIT · 中文优先 · 无强制联网、无 API 密钥依赖
+v0.2.0 · 自定义署名许可 · 中文优先 · 无强制联网、无 API 密钥依赖
 
 > Judge the claim, not the person. 只评价文本与观点，不评价具体个人。
 
@@ -75,8 +75,15 @@ python3 -m unittest discover -s tests
 - [tests/behavior-cases.md](tests/behavior-cases.md)：供模型回归检查的边界场景。
 - [RELEASE_NOTES.md](RELEASE_NOTES.md)：版本边界与路线图。
 
-## 开源与反馈
+## 许可、署名与反馈
 
-采用 [MIT License](LICENSE)。可以使用、修改与再分发，请保留许可证及版权声明。项目仓库：[evelynn-0/ai-hero-detector](https://github.com/evelynn-0/ai-hero-detector)。首次发布版本为 `v0.1.0`。
+本版本采用[自定义署名许可](LICENSE)，允许使用、修改、整合、再分发及商业使用，但要求标明来源：
+
+- **转载、修改或整合 Skill**：保留许可和版权声明，在说明或致谢中写明 AI Hero Detector、evelynn-0 与仓库链接；修改版须注明修改。
+- **公开发布生成的分析结果、截图或视频**：按[署名说明](ATTRIBUTION.md)展示项目名、维护者和来源链接。
+
+标准署名：使用 [AI Hero Detector](https://github.com/evelynn-0/ai-hero-detector) 生成或辅助完成 · evelynn-0。
+
+本许可不是 MIT，也未获 OSI 批准；项目表述为“源码公开”。v0.1.0 及此前的 MIT 授权仍有效，不能追溯新增上述义务。输出署名属于使用条件，不代表项目自动拥有全部 AI 输出版权；其可执行性取决于适用法律和有效协议。原许可见 [MIT 历史许可](licenses/MIT-v0.1.0.txt)。
 
 提交评分争议时，请提供已脱敏原文、模式、模型名称、Skill 版本、实际输出、你认为遗漏的上下文。优先提交“合理术语被误伤”“引述被当作立场”等反例，不提交针对个人的排行榜。建议修改规则时同步更新示例和边界检查。贡献内容应为自己有权分享的材料。
