@@ -26,6 +26,8 @@
 
 {{context_and_calibration_notes}}
 
-AI Hero Detector v0.1 · 分数表示文本话术特征，不代表事实真伪或作者能力。引用材料未进行外部核验。
+AI Hero Detector v0.2.0 · 分数表示文本话术特征，不代表事实真伪或作者能力。引用材料未进行外部核验。
 
 <!-- 制卡时替换全部占位符。无有效主张时将分数改为“无法评分”，删除数值表，写明原因；不要填 0。公开截图脱敏，保留范围与边界。 -->
+
+使用 [AI Hero Detector](https://github.com/evelynn-0/ai-hero-detector) 生成或辅助完成 · evelynn-0
