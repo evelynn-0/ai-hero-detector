@@ -1,4 +1,4 @@
-# AI Star Detector / AI 之星鉴定器
+# AI Hero Detector / AI 之星鉴定器
 
 **把“时代真的来了”拆成可以追问、可以验证的具体主张。**
 
@@ -23,9 +23,9 @@ v0.1 · MIT · 中文优先 · 无强制联网、无 API 密钥依赖
 
 ## 快速开始
 
-1. 下载并解压，保留整个 `ai-star-detector/` 文件夹。
+1. 下载并解压，保留整个 `ai-hero-detector/` 文件夹。
 2. 在支持文件型 Skills 的 AI 助手中，按该助手的安装入口加载整个文件夹。不同产品的目录和安装入口不同；本项目不承诺一键兼容全部产品。
-3. 首次使用可以明确说：**“使用 ai-star-detector，/detect 以下文本：……”**
+3. 首次使用可以明确说：**“使用 ai-hero-detector，/detect 以下文本：……”**
 4. 若助手没有 Skill 安装入口，可提供整个项目文件，并要求它先读 `SKILL.md`，再按相应模式读取引用文件。如果只支持文本粘贴，请粘贴 `SKILL.md` 和该模式要求的参考文件；只粘贴 README 不能执行完整评分。
 
 此压缩包不会自动安装任何内容。基础工作流不需要代码执行，也不会自行上传、发布或查找作者。使用在线 AI 助手时，你提供的文本仍由该助手处理；请先移除内部项目、客户和个人敏感信息。
@@ -33,7 +33,7 @@ v0.1 · MIT · 中文优先 · 无强制联网、无 API 密钥依赖
 ### 一分钟试用
 
 ```text
-使用 ai-star-detector
+使用 ai-hero-detector
 /detect
 今天必须立刻 All in Agentic Workflow：因为 Agent 就是数字员工、不必再问怎么运作，不这样做就必然被淘汰，某峰会大咖都赞同这个决定所以肯定没错，而且新时代已不可逆地到来。
 ```
@@ -89,6 +89,6 @@ python3 -m unittest discover -s tests
 
 ## 开源与反馈
 
-采用 [MIT License](LICENSE)。可以使用、修改与再分发，请保留许可证及版权声明。项目仓库：[evelynn-0/ai-star-detector](https://github.com/evelynn-0/ai-star-detector)。首次发布版本为 `v0.1.0`。
+采用 [MIT License](LICENSE)。可以使用、修改与再分发，请保留许可证及版权声明。项目仓库：[evelynn-0/ai-hero-detector](https://github.com/evelynn-0/ai-hero-detector)。首次发布版本为 `v0.1.0`。
 
 提交评分争议时，请提供已脱敏原文、模式、模型名称、Skill 版本、实际输出、你认为遗漏的上下文。优先提交“合理术语被误伤”“引述被当作立场”等反例，不提交针对个人的排行榜。建议修改规则时同步更新示例和边界检查。贡献内容应为自己有权分享的材料。
