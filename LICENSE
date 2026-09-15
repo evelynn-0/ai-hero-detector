@@ -1,21 +1,43 @@
-MIT License
+AI Hero Detector Attribution License 1.0
+自定义署名许可与公开输出使用条款
+生效版本：v0.2.0（2026-09-15）
 
-Copyright (c) 2026 AI Hero Detector contributors
+这是自定义许可，不是 MIT，也未获 OSI 批准。本文件中文文本为准。
+项目：https://github.com/evelynn-0/ai-hero-detector
+项目维护者署名：evelynn-0
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. 范围与既有权利
+“本项目”指本版本提供的 Skill 指令、文档、模板及辅助代码；“公开输出”指实际使用本版本生成，并向公众传播的分析、改写、追问、讽刺文本，及展示这些内容的截图、视频或其他媒体。
+本许可仅覆盖授权方有权按本许可授权的新增或修改内容。第三方内容、用户输入和其他权利人的贡献不因本文件改变许可。
+v0.1.0 及此前已按 MIT 发布的内容仍可按原 MIT 条款取得、使用、修改和再分发，包括从旧提交获取；新条款不追溯适用，不撤销既有授权。原许可证保留于 licenses/MIT-v0.1.0.txt。未修改且已按 MIT 授权的部分仍保有其 MIT 授权；不得将这些部分表述为只能依本许可使用。
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+2. 授权
+在遵守适用条款的条件下，允许免费使用、复制、修改、整合、再分发和商业使用本许可覆盖的内容；不要求公开你独立开发的其他代码。本许可不转让作品所有权，也不要求将独立的用户输入或完整输出归属于项目维护者。
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+3. 转载、修改、整合时的署名
+再分发本许可覆盖的内容或其修改版时，必须保留本文件、原版权及第三方许可声明，并在 README、分发页面或产品内可合理找到的致谢位置显示项目名、维护者署名和项目链接。不得只保留一个无法定位来源的名称。
+修改版须说明已修改，并简述变更范围；不得暗示原维护者为修改或整合后的产品背书。整合到产品时，可在关于页面或第三方声明中署名，无须在所有界面重复展示。
+标准格式：基于 AI Hero Detector，项目维护者：evelynn-0。来源：https://github.com/evelynn-0/ai-hero-detector
+
+4. 公开输出的使用条件
+使用本许可覆盖的新版本并接受这些使用条款的使用者，在公开发布公开输出时，须以受众能够合理看到的方式提供以下署名：
+使用 AI Hero Detector 生成或辅助完成 · evelynn-0
+https://github.com/evelynn-0/ai-hero-detector
+文字：署名及链接置于正文、相邻说明或文末。
+图片或截图：图片内保留可读的项目名及 evelynn-0；同时在图片或配文中提供完整项目地址。
+视频：在片头、片尾或清楚可读的字幕中显示项目名及 evelynn-0，并在画面或简介中提供完整项目地址；无须全程水印。
+平台不支持可点击链接时，显示完整明文地址即可。公开发布经编辑的输出时，仍应署名，并说明经过修改。仅私下使用或非公开内部交流不要求对公众署名。未使用本项目而独立创作的相似内容不受本条约束。
+集成者应向用户清楚展示这些输出条件，默认保留输出署名，且不得将输出宣传为无任何署名条件。
+
+5. 输出条款的法律边界
+第 4 条是使用本许可覆盖版本时提出的使用条件，不是宣称项目维护者自动拥有全部 AI 输出的著作权。若输出本身不包含受保护的项目表达，其义务能否成立或执行，取决于适用法律及是否有效形成协议；仅将文件放在仓库、由模型显示署名或声称用户浏览即同意，并不保证合同成立。
+本文件不限制适用法律保障的合理使用、法定引用或其他无需取得许可的行为，也不为公有领域内容新增排他权利。
+
+6. 违约与补正
+对本许可覆盖的新内容，违反适用授权条件可能导致相应许可终止。在收到具体书面通知后 30 日内补足署名并纠正违规的，相关许可恢复；本条不改变依法仍可主张的权利。单独依据有效旧 MIT 许可享有的权利不因此终止。
+
+7. 无担保
+在适用法律允许的最大范围内，本项目按现状提供，不保证准确性、适销性、特定用途适用性或不侵权；授权方不对使用产生的损失承担责任。法律不允许排除的责任不受本条影响。
+
+8. 其他授权
+需要免署名或其他授权时，可通过项目仓库联系维护者另行书面约定。无书面豁免时，不应假定获得豁免。
