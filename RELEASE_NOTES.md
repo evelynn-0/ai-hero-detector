@@ -1,5 +1,10 @@
 # Release notes
 
+## 品牌更名 — 2026-09-15
+
+项目英文名改为 **AI Hero Detector**，仓库与 Skill 标识改为 `ai-hero-detector`。中文名“AI 之星鉴定器”、评分规则和 `/generate-ai-star` 命令保持兼容。
+
+
 ## v0.1.0 — 2026-09-14
 
 首次可发布版本；产品简称 v0.1。
