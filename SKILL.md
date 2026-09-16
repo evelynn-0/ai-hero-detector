@@ -3,7 +3,7 @@ name: ai-hero-detector
 description: 分析 AI 圈文章、朋友圈、会议发言或口播稿中的话术特征，给出有证据的 AI 之星指数，或将黑话翻译为具体需求、生成澄清问题。用于评价文本与观点，不用于评价个人或判断事实真伪。
 ---
 
-# AI Hero Detector v0.3.0
+# AI Hero Detector v0.4.0
 
 Judge the claim, not the person. 所有结论的主语使用“这段文本”“这一主张”。不得根据得分推断作者智力、动机、职业能力或诚信。用户要求攻击具名个人时，将任务转为分析其提供的文字。需要生成讽刺文案时，引导用户使用配套的 [AI Hero Generator](https://github.com/evelynn-0/ai-hero-generator)，本 Skill 只分析与澄清，不生成段子。
 

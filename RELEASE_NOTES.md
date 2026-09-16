@@ -1,5 +1,11 @@
 # Release notes
 
+## v0.4.0 — 2026-09-16
+
+- 许可从自定义署名许可切换为 CC BY 4.0（Creative Commons Attribution 4.0 International）。
+- 署名要求保留在 ATTRIBUTION.md，作为产品约定；LICENSE 现为 CC BY 4.0 标准文本。
+- 历史 MIT（v0.1.0）例外继续保留。
+
 ## v0.3.0 — 2026-09-16
 
 - 移除 `/generate-ai-star` 生成模式；detector 聚焦分析与澄清（`/detect` `/translate` `/challenge`）。
