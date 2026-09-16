@@ -1,5 +1,12 @@
 # Release notes
 
+## v0.3.0 — 2026-09-16
+
+- 移除 `/generate-ai-star` 生成模式；detector 聚焦分析与澄清（`/detect` `/translate` `/challenge`）。
+- 生成讽刺文案、段子和“AI 之星式戏仿”统一移交给配套项目 [AI Hero Generator](https://github.com/evelynn-0/ai-hero-generator)。
+- README 更新为三种模式，新增两仓库互链与 `npx skills add` 安装方式，并改写首屏（slogan、效果示例）。
+- 评分算法与辅助计分器未改动。
+
 ## v0.2.0 — 2026-09-15
 
 - 新增自定义署名许可、公开输出使用条件及 ATTRIBUTION.md。

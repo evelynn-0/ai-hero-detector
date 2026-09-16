@@ -4,7 +4,7 @@
 
 把 AI 圈黑话拆成 0–100 分、六维证据，和一句能追问的人话。
 
-v0.2.0 · 自定义署名许可 · 中文优先 · 无强制联网、无 API 密钥依赖
+v0.3.0 · 自定义署名许可 · 中文优先 · 无强制联网、无 API 密钥依赖
 
 > Judge the claim, not the person. 只评价文本与观点，不评价具体个人。
 
@@ -37,14 +37,13 @@ AI 之星指数 91/100 —— 宣言与包装很密集。
 
 想先看它怎么“演”？用 [AI Hero Generator](https://github.com/evelynn-0/ai-hero-generator) 把一句普通话说成“提前进入下一个时代”，再拿鉴定器来拆——**一个负责演，一个负责拆**。
 
-## 四种模式
+## 三种模式
 
 | 输入方式 | 输出 | 适合什么时候用 |
 |---|---|---|
 | `/detect` + 文本 | 指数、六维得分、原文证据、校准说明、追问 | 看清一段话说了多少实质内容 |
 | `/translate` + 文本 | 直白改写、缺失信息、一个关键问题 | 将抽象表达转成可讨论的需求 |
 | `/challenge` + 文本 | 按优先级排列、可验收的澄清问题 | 项目讨论、会议准备 |
-| `/generate-ai-star` + 主题 | 标明虚构的 AI 圈讽刺文案 | 视频演示、内容创作 |
 
 这些斜杠名称是本 Skill 识别的文本约定，不会自动注册为宿主软件的按钮或命令。普通中文指令也可以触发，例如“用 AI 之星鉴定器分析下面这段话”。
 
@@ -84,7 +83,7 @@ python3 -m unittest discover -s tests
 
 - [SKILL.md](SKILL.md)：实际执行入口。
 - [references/](references/)：模式词例、评分规则和校准原则。
-- [examples/](examples/)：高低分完整示例与四种模式示范。
+- [examples/](examples/)：高低分完整示例与三种模式示范。
 - [assets/ai-star-scorecard.md](assets/ai-star-scorecard.md)：可复制的结果卡。
 - [tests/behavior-cases.md](tests/behavior-cases.md)：供模型回归检查的边界场景。
 - [RELEASE_NOTES.md](RELEASE_NOTES.md)：版本边界与路线图。
